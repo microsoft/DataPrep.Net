@@ -52,6 +52,9 @@ namespace DataPrepSample
 
             //Write output to a csv file or save to .dprep package.
             DataFlow result = dataFlowCombined.WriteDelimitedFile(resultPath);
+
+            // Get a IDataView object for further model training, such as ML.Net
+            IDataView dataView = dataFlowCombined.ToDataView();
         }
     }
 }

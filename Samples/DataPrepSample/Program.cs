@@ -54,7 +54,7 @@ namespace DataPrepSample
             DataFlow result = dataFlowCombined.WriteDelimitedFile(resultPath);
 
             // Get a IDataView object for further model training, such as ML.Net
-            IDataView dataView = dataFlowCombined.ToDataView();
+            IDataView dataView = result.ToDataView();
         }
     }
 }

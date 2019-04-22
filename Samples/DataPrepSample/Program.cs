@@ -1,4 +1,7 @@
-﻿using Microsoft.DataPrep;
+﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
+using Microsoft.DataPrep;
 using Microsoft.DataPrep.Common;
 using Microsoft.Data.DataView;
 using System;
